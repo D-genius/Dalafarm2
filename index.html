@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalafarm</title>
+    <link rel="icon" type="text/css" href="images/pic.ico">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <style>
+        #first h2 {
+            color: goldenrod;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        #first {
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #footercontainer {
+            display: flex;
+            text-align: center;
+            background-color: rgb(173, 163, 163);
+            height: auto;
+            padding: 30px;
+        }
+        
+        #footercontainer div {
+            flex: 1;
+        }
+        
+        #footercontainer div h4 {
+            font-weight: bold;
+        }
+        
+        .fa-google {
+            color: black;
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            padding-top: 7px;
+            border-radius: 50%;
+        }
+        
+        .fa-instagram {
+            color: black;
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            padding-top: 7px;
+            border-radius: 50%;
+        }
+        
+        .fa-pinterest {
+            color: black;
+            background-color: white;
+            width: 40px;
+            height: 40px;
+            padding-top: 7px;
+            border-radius: 50%;
+        }
+        
+        .fa {
+            font-size: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        
+        #footercontainer h2 {
+            color: black;
+        }
+        
+        #footercontainer div li {
+            list-style: none;
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <!--Container-3-->
+        <div class="Container-3">
+            <div class="example">Dalafarm - Quality farm products.
+
+            </div>
+            <div class="bounce">
+                <p>Fresh farm products!,Quality service!</p>
+            </div>
+
+            <div class="contain">
+                <!--buyer-->
+                <div class="gallery">
+                         
+                    <a href="farmerlogin.html"><img src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80" alt="farmer"></img></a>
+                    <div class='info'>
+                        <h1>Farmer</h1>
+                        <p>Login for Farmers</p>
+                        <a href="farmerlogin.html"><button>Login</button></a>
+
+                    </div>
+                </div>
+
+                <!--Seller-->
+                <div class="gallery ">
+                    <img src="https://cdn.pixabay.com/photo/2015/05/04/10/16/vegetables-752153_960_720.jpg " alt="seller "></img>
+                    <div class='info'>
+                        <h1>Customer</h1>
+                        <p>Login for Customer</p>
+                        <a href="customerlogin.html " class="btn " "><button>Login</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="footercontainer">
+        <div style="padding-top: 20px;">
+            <img src="pic.ico" style="height: 80px; width: 80px;">
+            <div style="padding-top: 20px;">
+                <h6>2021 Dalafarm |Best quality farm products.</h6>
+                <h6>All rights reserved.</h6>
+            </div>
+
+        </div>
+        <div style="padding-top: 10px; ">
+            <ul>
+                <h4>OUR SITES</h4>
+                <br> </br>
+                <li>
+                    <a href="customersignup.html " class="btn " ">signup as customer!</a>
+                </li>
+                <li>
+                    <a href="farmersignup.html " class="btn " ">signup as farmer</a>
+                </li>
+                <li>
+                      <form method="post" action="send_script.php ">
+                              <br/> Send us your feedback! <br/>      
+                      Name: <input type="text" name="name" > <br />
+                      email: <input type="email" name="email" > <br />
+                      Subject: <input type="text" name="subject" > <br />
+                      Message: <textarea name="msg"></textarea>
+                      <button type="submit" name="send_message_btn">Send</button>
+                </li>
+            </ul>
+        </div>
+        <div style="padding-top: 20px;">
+            <div>
+                <h4>Social Media</h4>
+                <a href="#" class="fa fa-google"></a>&nbsp;&nbsp;
+                <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
