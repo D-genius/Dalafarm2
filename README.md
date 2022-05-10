@@ -1,8 +1,8 @@
-# Simple-PHP-Shopping-Cart
-Simple PHP shopping cart application for beginners.
+# Agricultural e-commerce system
+Simple PHP Agri-shopping application for famers and consumers.
 
-Step #1
-Run the create-products.sql script and change the connection string in your script to your database.
+#use my_sql database on local host to import database
 
-Read tutorial here
- http://www.tutsplanet.com/simple-php-shopping-cart/
+
+
+
